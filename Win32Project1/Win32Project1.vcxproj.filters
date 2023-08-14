@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\99.Default">
+      <UniqueIdentifier>{101d187d-6664-484f-b176-7885ae66eed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Device">
+      <UniqueIdentifier>{a532c604-4723-4189-b36e-4ee14e5d37c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97.Manager">
+      <UniqueIdentifier>{5c6d3330-7be7-41f6-ae31-175e2e72be64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97.Manager\01.Scroll_Manager">
+      <UniqueIdentifier>{2b6f103b-c389-408a-904a-1c752e20679d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97.Manager\03.Frame_Manager">
+      <UniqueIdentifier>{9d796ee9-312b-4d05-bd60-cab5044b4236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.MainGame">
+      <UniqueIdentifier>{f86d30e6-06d9-483d-83bf-4e360ced7acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject">
+      <UniqueIdentifier>{57f79653-7c02-4ed3-ae8c-9a12e0fdd90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\00.Manager">
+      <UniqueIdentifier>{6d06f338-96e5-4c36-b351-9e2e6df7d2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\01.Player">
+      <UniqueIdentifier>{704c32d7-15e0-4a5f-a267-04e32edbea4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\02.Terrian">
+      <UniqueIdentifier>{f95d6a72-a33a-4e25-8f95-4dd5f847b32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene">
+      <UniqueIdentifier>{d87dbc50-2267-4dd6-8629-922592dd8e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene\01.Town">
+      <UniqueIdentifier>{bb7ca7c3-40e4-4e7c-9971-bd21f7f8eda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene\00.Scene_Manager">
+      <UniqueIdentifier>{f39768ec-c834-4584-bc16-a32616d0f50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Texture">
+      <UniqueIdentifier>{dd131b82-fa7b-4dd5-8dd3-765f1c192ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Texture\Manager">
+      <UniqueIdentifier>{1a10e7ba-a109-43fb-bced-c07f29862276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Texture\Multi_Texture">
+      <UniqueIdentifier>{841c784b-5e75-4575-873e-58a46a665c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Texture\Single_Texture">
+      <UniqueIdentifier>{915250e0-aa71-4751-bac8-83641dff3fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97.Manager\04.Key_Manager">
+      <UniqueIdentifier>{19a3a41a-63ec-43b7-b1ae-5f151dcffa44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene\03.Loading">
+      <UniqueIdentifier>{0ee61b10-bab0-41d3-ace0-5730fe1fb4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\03.BackGround">
+      <UniqueIdentifier>{25d77eef-ceff-421c-9af6-382e77d713bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene\02.MainMenu">
+      <UniqueIdentifier>{d3bbc8f5-1ebf-4841-9d74-f76ef25f4368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\04.Button">
+      <UniqueIdentifier>{2478e5c7-c089-421d-adff-0df2b5bbf689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97.Manager\05.Collision_Manager">
+      <UniqueIdentifier>{b0f1e8a2-695a-4925-bd5c-eaa0a48129a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\05.Bullet">
+      <UniqueIdentifier>{2083324c-3c26-4107-82d3-4461afe1af1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\06.Monster">
+      <UniqueIdentifier>{afa6d1ab-689f-4598-bd14-061946c592ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene\04.BossRoom1">
+      <UniqueIdentifier>{30521c28-220d-4326-9128-b2f2f9a68057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\05.Bullet\PlayerBullet">
+      <UniqueIdentifier>{085e90f1-cfdc-4c9b-980e-6f82232903d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\06.Monster\BossA">
+      <UniqueIdentifier>{34c7197d-648b-4590-b103-19b2f9f0511f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\06.Monster\BossA\Stone">
+      <UniqueIdentifier>{28c90bda-bc50-40b7-a807-3792d4223844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\06.Monster\BossA\Arm">
+      <UniqueIdentifier>{d4c48c48-a9b4-4aa5-b6bc-6afc8b915567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\06.Monster\BossA\Shadow">
+      <UniqueIdentifier>{a512f1b9-055d-4759-8adb-45c4848da348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\07.UI">
+      <UniqueIdentifier>{f771dfde-bd8e-4aed-b86f-769ac971bb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\06.Monster\BossA\Wave">
+      <UniqueIdentifier>{7457447f-44c7-461e-b440-069f639e438b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\06.Monster\BossB">
+      <UniqueIdentifier>{8d590616-759c-42a1-bb48-0eeac852e5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene\05.BossRoom2">
+      <UniqueIdentifier>{053b454d-8c67-4f32-b63a-31b1105b5980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\08.Item">
+      <UniqueIdentifier>{e8944757-4e68-4390-9604-b099b07061b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\05.Bullet\MonsterBullet">
+      <UniqueIdentifier>{1828b4c8-9d78-4a15-90f2-efd13b317cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\09.Particle">
+      <UniqueIdentifier>{c5e2aad9-02df-4bb8-836b-41a4ae0f0c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\06.Monster\BossB\Plant">
+      <UniqueIdentifier>{70c1cf24-13e3-4358-a6dc-19f449fe3c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\06.Monster\BossB\Root">
+      <UniqueIdentifier>{9263981c-a643-4552-8325-82db380171b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97.Manager\02.Time_Manager">
+      <UniqueIdentifier>{afc34289-2572-4560-96db-556f05bcf617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene\06.Shop">
+      <UniqueIdentifier>{9701826c-280f-4e9a-ab5d-be9065a9d357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Scene\07.BossEnter">
+      <UniqueIdentifier>{15aeadf6-f66b-4bfb-94d1-2455698db06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\10.Portal">
+      <UniqueIdentifier>{aedbeaab-2181-4e8a-ae3e-e8b869f3a3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\11.Inventory">
+      <UniqueIdentifier>{fb497f24-6d95-485a-bfd6-a8fd5e4c104f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\12.ShopStand">
+      <UniqueIdentifier>{00343c52-550f-4aaf-bb5b-42f1842a6e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\13.Shop">
+      <UniqueIdentifier>{40d18c66-a687-4f73-8e2a-cf5ba19ad7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.GameObject\14.Interior">
+      <UniqueIdentifier>{90f32e50-458d-4451-932a-b5b9cc4c0821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97.Manager\06.Sound_Manager">
+      <UniqueIdentifier>{6bfa5967-1d5b-46e7-a403-a69345d67d95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scroll_Manager.h">
+      <Filter>소스 파일\97.Manager\01.Scroll_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Time_Manager.h">
+      <Filter>소스 파일\97.Manager\02.Time_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Manager.h">
+      <Filter>소스 파일\97.Manager\03.Frame_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Project1.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic_Device.h">
+      <Filter>소스 파일\98.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\03.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Multi_Texture.h">
+      <Filter>소스 파일\03.Texture\Multi_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Single_Texture.h">
+      <Filter>소스 파일\03.Texture\Single_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Manager.h">
+      <Filter>소스 파일\03.Texture\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>소스 파일\02.Scene\01.Town</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manager.h">
+      <Filter>소스 파일\02.Scene\00.Scene_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>소스 파일\01.GameObject\02.Terrian</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Manager.h">
+      <Filter>소스 파일\01.GameObject\00.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01.GameObject\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>소스 파일\97.Manager\04.Key_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>소스 파일\02.Scene\03.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>소스 파일\01.GameObject\03.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>소스 파일\02.Scene\02.MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>소스 파일\01.GameObject\04.Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision_Manager.h">
+      <Filter>소스 파일\97.Manager\05.Collision_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom1.h">
+      <Filter>소스 파일\02.Scene\04.BossRoom1</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\01.GameObject\05.Bullet\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BossA_Arm.h">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA\Arm</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>소스 파일\01.GameObject\07.UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA\Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterB.h">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossB</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRoom2.h">
+      <Filter>소스 파일\02.Scene\05.BossRoom2</Filter>
+    </ClInclude>
+    <ClInclude Include="MBullet.h">
+      <Filter>소스 파일\01.GameObject\05.Bullet\MonsterBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>소스 파일\01.GameObject\09.Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossB\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Root.h">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossB\Root</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>소스 파일\02.Scene\06.Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEnter.h">
+      <Filter>소스 파일\02.Scene\07.BossEnter</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>소스 파일\01.GameObject\10.Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\01.GameObject\08.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>소스 파일\01.GameObject\11.Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopStand.h">
+      <Filter>소스 파일\01.GameObject\12.ShopStand</Filter>
+    </ClInclude>
+    <ClInclude Include="MyShop.h">
+      <Filter>소스 파일\01.GameObject\13.Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Interior.h">
+      <Filter>소스 파일\01.GameObject\14.Interior</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>소스 파일\97.Manager\06.Sound_Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scroll_Manager.cpp">
+      <Filter>소스 파일\97.Manager\01.Scroll_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Time_Manager.cpp">
+      <Filter>소스 파일\97.Manager\02.Time_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Manager.cpp">
+      <Filter>소스 파일\97.Manager\03.Frame_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Project1.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic_Device.cpp">
+      <Filter>소스 파일\98.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\03.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi_Texture.cpp">
+      <Filter>소스 파일\03.Texture\Multi_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Single_Texture.cpp">
+      <Filter>소스 파일\03.Texture\Single_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Manager.cpp">
+      <Filter>소스 파일\03.Texture\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>소스 파일\02.Scene\01.Town</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manager.cpp">
+      <Filter>소스 파일\02.Scene\00.Scene_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>소스 파일\01.GameObject\02.Terrian</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Manager.cpp">
+      <Filter>소스 파일\01.GameObject\00.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01.GameObject\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>소스 파일\97.Manager\04.Key_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>소스 파일\02.Scene\03.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>소스 파일\01.GameObject\03.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>소스 파일\02.Scene\02.MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>소스 파일\01.GameObject\04.Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision_Manager.cpp">
+      <Filter>소스 파일\97.Manager\05.Collision_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom1.cpp">
+      <Filter>소스 파일\02.Scene\04.BossRoom1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\01.GameObject\05.Bullet\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BossA_Arm.cpp">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA\Arm</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>소스 파일\01.GameObject\07.UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA\Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossA</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRoom2.cpp">
+      <Filter>소스 파일\02.Scene\05.BossRoom2</Filter>
+    </ClCompile>
+    <ClCompile Include="MBullet.cpp">
+      <Filter>소스 파일\01.GameObject\05.Bullet\MonsterBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>소스 파일\01.GameObject\09.Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossB\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Root.cpp">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossB\Root</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>소스 파일\02.Scene\06.Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEnter.cpp">
+      <Filter>소스 파일\02.Scene\07.BossEnter</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>소스 파일\01.GameObject\10.Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\01.GameObject\08.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>소스 파일\01.GameObject\11.Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopStand.cpp">
+      <Filter>소스 파일\01.GameObject\12.ShopStand</Filter>
+    </ClCompile>
+    <ClCompile Include="MyShop.cpp">
+      <Filter>소스 파일\01.GameObject\13.Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Interior.cpp">
+      <Filter>소스 파일\01.GameObject\14.Interior</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>소스 파일\97.Manager\06.Sound_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterB.cpp">
+      <Filter>소스 파일\01.GameObject\06.Monster\BossB</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Win32Project1.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Win32Project1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>소스 파일\99.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
